@@ -52,7 +52,7 @@ module.exports = (env, argv) => ({
       https://goo.gl/DsD2Nn
       This option determines the name of each output bundle.
     */
-    filename: '[name].[hash].bundle.js',
+    filename: '[name]bundle.js',
 
     /*
       https://goo.gl/bwR2sW
