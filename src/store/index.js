@@ -1,6 +1,6 @@
 import { createStore, applyMiddleware } from "redux";
 import thunk from "redux-thunk";
-import rootReducer from "../../../demo/src/reducers";
+import rootReducer from "../reducers";
 
 let enhancer = applyMiddleware(thunk);
 if (process.env.NODE_ENV === "development") {
