@@ -60,8 +60,8 @@
     "webpack-dev-server": "^3.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "cross-env NODE_ENV=production webpack --mode production --env.prod",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --env.dev --progress",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
