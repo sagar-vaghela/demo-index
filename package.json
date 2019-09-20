@@ -61,7 +61,7 @@
   },
   "scripts": {
     "build": "cross-env NODE_ENV=production webpack --mode production --env.prod",
-    "start": "cross-env NODE_ENV=development webpack-dev-server --mode development --env.dev --progress",
+    "start": "cross-env NODE_ENV=production webpack-dev-server --mode production --env.dev --progress",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
