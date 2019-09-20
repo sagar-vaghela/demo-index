@@ -1,0 +1,29 @@
+/*
+  px <-> em: http://pxtoem.com/
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+
+  // https://goo.gl/YK3TNB
+  // size/line-height | family
+  font: 16px/1 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+
+/*  smruti */
+table.tableHeaderClass>thead>tr:first-child>th {
+  font-size: 12px;
+}
+
+.tableHeaderClass {
+  text-align: left;
+  background-color: #444444;
+  color: white;
+}
