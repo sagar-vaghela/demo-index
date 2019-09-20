@@ -1,4 +1,4 @@
-import * as types from "../../../demo/src/lib/actionTypes";
+import * as types from "../lib/actionTypes";
 import initialState from "./initialState";
 
 const itemReducer = (state = initialState.itemData, action) => {
