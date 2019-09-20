@@ -52,7 +52,7 @@ module.exports = (env, argv) => ({
       https://goo.gl/DsD2Nn
       This option determines the name of each output bundle.
     */
-    filename: '[name]bundle.js',
+    filename: '[name].bundle.js',
 
     /*
       https://goo.gl/bwR2sW
@@ -344,7 +344,7 @@ module.exports = (env, argv) => ({
     new MiniCssExtractPlugin({
       // Options similar to the same options in webpackOptions.output
       // Both options are optional.
-      filename: '[name].[hash].css',
+      filename: '[name].css',
       chunkFilename: '[id].css'
     }),
 
